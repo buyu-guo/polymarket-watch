@@ -142,8 +142,8 @@ async function main() {
   }
 
   const priceUrl =
-    "https://clob.polymarket.com/last-trades-prices?" +
-    tokenIds.map(id => `token_ids=${encodeURIComponent(id)}`).join("&");
+    "https://clob.polymarket.com/last-trades-prices?token_ids=" +
+    encodeURIComponent(tokenIds.join(","));
 
   const pricesResp = await fetchJson(priceUrl);
 
