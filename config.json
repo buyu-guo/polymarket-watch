@@ -1,0 +1,11 @@
+{
+  "barkKeyEnv": "BARK_KEY",
+  "markets": [
+    {
+      "name": "Hantavirus pandemic in 2026",
+      "url": "https://polymarket.com/zh/event/hantavirus-pandemic-in-2026",
+      "outcome": "Yes",
+      "thresholdPctPoints": 3
+    }
+  ]
+}
